@@ -1,0 +1,427 @@
+
+
+body {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  margin-top: 0; padding: 0;
+  box-sizing: border-box;
+
+}
+:root{
+--themeBrown:#865439;
+}
+
+
+.jumbotron{
+  background-image: url('./images/Home-page.png.webp');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 90vh;
+
+  
+}
+
+
+html{
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+}
+html::-webkit-scrollbar{
+width: 20px;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+
+
+
+section{
+  padding: 2rem 7%;
+}
+
+.sectionTitle{
+  width: 300px;
+  border-bottom: 4px solid var(--themeBrown) ;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 0 auto 50px;
+  position: relative;
+  padding: 10px 0;
+  text-transform: uppercase ;
+  
+}
+
+.sectionTitle::after{
+  display: inline-block;
+  content: "";
+  height: 16px;
+  width: 16px;
+  background-color:var(--themeBrown);
+  position: absolute;
+  left: calc(50% - 10px);
+top: calc(75% - 7px);
+transform: rotate(45deg) translate(50%, 50%);
+border: 3px solid #fff;
+}
+span{
+  color: var(--themeBrown);
+}
+
+
+
+
+
+.home .content{
+  max-width: 60rem;
+}
+
+.content h5 {
+  font-size: 2rem;
+margin: 5%;
+  color:#fff;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.content h1 {
+  font-size: 4rem;
+margin-left: 35%;
+  color:#fff;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.slogan{
+  color: #865439;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 50px;
+margin-left: 20% ;
+}
+button{
+
+  border-radius: 30px;
+
+  background-color: var(--themeBrown);
+
+  color: white;
+  margin-left: 50%;
+
+
+}
+
+
+
+
+.table {
+
+min-height:18vh ;
+background-color: #865439;
+color: black;
+
+border: #865439;
+margin-top: 50%;
+}
+
+
+.box{
+
+  width: 50%;
+  
+  }
+
+  h1{
+
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin-left: 20%;
+
+    
+  }
+  
+  h4{
+    text-align: center;
+
+  
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+  justify-items: center;
+  margin: 3%;
+  
+  }
+
+
+.imgbox{
+  width: 50%;
+  height: 100%;
+  display: block;
+  border: solid black;
+}
+.textbox{
+  width: 50%;
+  height: 100%;
+  display: block;
+  border: solid black;
+  background-color: white;
+}
+
+.fullcontainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: solid black;
+
+}
+.Title{
+  color: var(--themeBrown);
+  text-align: center;
+  margin-top: -180px;
+}
+p{
+  text-align: center;
+  padding: 2%;
+  margin: 10%;
+}
+h5{
+  text-align: center;
+  color: var(--themeBrown);
+  margin-top: -10%;
+  
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.list img{
+  border-radius: 65%;
+  width: 20%;
+  height: 8rem;
+  margin-left: 97%;
+  margin-top: -20%;
+}
+.listbox img{
+  border-radius: 65%;
+  width: 20%;
+  height: 10%;
+    margin-left: 97%;
+    margin-top: -13%;
+  
+}
+.listtable img{
+  border-radius: 50%;
+  width: 25%;
+height: 8.5rem;
+    margin-left: 95%;
+    margin-top: -10%;
+ 
+}
+
+.list-list img{
+  border-radius: 80%;
+  width: 20%;
+  height: 7.5rem;
+    margin-left: 97%;
+    margin-top: -8%;
+
+}
+.list-list2 img{
+  border-radius: 80%;
+  width: 20%;
+  height: 7.5rem;
+    margin-left: 97%;
+    margin-top: -13%;
+}
+
+
+.list-list-list img{
+  border-radius: 80%;
+  width: 20%;
+  height: 7.5rem;
+    margin-left: 97%;
+    margin-top: -13%;
+}
+.list-list3 img{
+  border-radius: 80%;
+  width: 20%;
+  height: 7.5rem;
+    margin-left: 97%;
+    margin-top: -8%;
+}
+.list-list4 img{
+  border-radius: 80%;
+  width: 20%;
+  height: 7.5rem;
+    margin-left: 97%;
+    margin-top: -10%;
+}
+.bigbox{
+  width: 30rem;
+  height: 120%;
+  border: solid black;
+
+
+}
+.form{
+  width: 25rem;
+  height: 200%;
+
+  background-color: #eee;
+  justify-content: center;
+  margin-left: 20%;
+  border-radius: 10%;
+margin-right: 15%;
+margin-top: -30%;
+box-shadow: 20px 20px 20px 20px rgb(150, 143, 143);
+
+}
+h2{
+  text-align: center;
+  color: #865439;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.form input{
+width: 75%;
+height: 3rem;
+margin: 2%;
+margin-left: 10%;
+
+}
+p{
+  font-weight: bold;
+}
+
+
+.form-check-in input{
+  width: 25%;
+color: rgb(180, 179, 179);
+margin-left: 15%;
+  
+}
+
+.form-check-out input{
+  width: 25%;
+  color: rgb(180, 179, 179);
+  margin-left: 15%;
+}
+.form-button button{
+
+  color: black;
+  width: 50%;
+  height:30%;
+  border-radius: 10%;
+  margin: 5%;
+  margin-left: 20%;
+  
+}
+.secondbox img{
+border-radius: 10%;
+width: 30rem;
+box-shadow: 20px 20px 20px 20px rgb(150, 143, 143);
+}
+.infobox h5{
+color: black;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.form-box{
+
+  margin-top: -35%;
+  width: 10rem;
+  margin-left: 5%;
+}
+.form-box .form-text{
+  font-size: xx-large;
+  font-weight: bolder;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.book{
+  width: 30%;
+  border: none;
+  text-align: center;
+  margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+
+
+  section{
+      padding:2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+
+
+
+
+  .home{
+      background-position: right;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .home .content h1{
+      font-size: 4.5rem;
+  }
+
+  .home .content p{
+      font-size: 1.5rem;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
